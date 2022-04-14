@@ -63,7 +63,7 @@ class SavingsAccount(accountNumber: Int, accountName: String, balance: Int):Curr
 //weight, price, category. Category can either be groceries, hygiene or
 //other. Write a function that takes in a product and uses a when
 //statement to assign each product to a list based on its category
-data class (name, weight, price, category){
+data class (var name:String, var weight:Int, var price:Int, var category:String){
     fun groceries(){
 
     }
