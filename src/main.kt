@@ -8,8 +8,9 @@ fun main() {
     var savings = SavingsAccount(3,758862979,"OchwadaWalala",56000.50)
     savings.withdraw(200.50)
 
-    var products = Product("Kleesoft",5,140.50,"Hygiene")
-    println(products)
+    categorizedproduct(Product("Kleesoft",5,140.50,"Hygiene"))
+    categorizedproduct(Product("Tomatoes",6,200.50,"Groceries"))
+
 
     var stmt = words("Sugarcane")
     println(stmt)
